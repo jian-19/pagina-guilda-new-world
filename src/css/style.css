@@ -198,7 +198,7 @@ footer {
 
 /* Estado Ativo: Dark Mode */
 .dark-mode .theme-toggle .icon-dark {
-    transform: translateY(-105%);
+    transform: translateY(-110%);
 }
 
 .dark-mode .theme-toggle .icon-light {
