@@ -10,59 +10,203 @@
   <script src="/src/js/script.js"></script>
 </head>
 <body class="raids-page">
+
+  <!-- Cabeçalho -->
   <header>
     <div class="logo">Fundamentos de Builds em New World</div>
-      <button id="theme-toggle" class="theme-toggle">
-        <span class="icon-dark">🌙</span>
-        <span class="icon-light">☀️</span>
-      </button>
+    <button id="theme-toggle" class="theme-toggle">
+      <span class="icon-dark">🌙</span>
+      <span class="icon-light">☀️</span>
+    </button>
   </header>
+
+  <!-- Conteúdo Principal -->
   <section class="hero">
-    <h1 class="slogan">Fundamentos de Builds no New world:</h1>
-    <p>Entender os fundamentos de uma build no New World é essencial para maximizar o desempenho do seu personagem em combate. As builds são divididas em quatro categorias principais que trabalham juntas para criar um estilo de jogo coeso.</p>
+    <h1 class="slogan">Fundamentos de Builds no New World:</h1>
+    <p>
+      Entender os fundamentos de uma build no New World é essencial para maximizar o desempenho do seu personagem em combate.
+      As builds são divididas em quatro categorias principais que trabalham juntas para criar um estilo de jogo coeso.
+    </p>
+
+    <!-- Defesa -->
     <h2 class="slogan">Defesa</h2>
     <p>A defesa é a sua primeira linha de proteção contra danos.</p>
     <ul>
-        <li><span>Defesa Física:</span> Resistência a ataques físicos.</li>
-        <li><span>Defesa Elemental:</span> Resistência a ataques de magia.</li>
-        <li><span>Porcentagem de Defesas:</span> A forma como essas defesas são calculadas e aplicadas.</li>
+      <li><span>Defesa Física:</span> Resistência a ataques físicos.</li>
+      <li><span>Defesa Elemental:</span> Resistência a ataques de magia.</li>
+      <li><span>Porcentagem de Defesas:</span> A forma como essas defesas são calculadas e aplicadas.</li>
     </ul>
+
+    <!-- Dano -->
     <h2 class="slogan">Dano</h2>
     <p>Esta categoria foca em como você causa dano aos seus inimigos.</p>
     <ul>
-        <li><span>Dano Base:</span> O dano principal da sua arma ou habilidade.</li>
-        <li><span>Crítico:</span> O dano extra causado em acertos críticos.</li>
-        <li><span>Energizado:</span> Um buff que aumenta a produção de dano.</li>
-        <li><span>Debuffs:</span> Efeitos negativos aplicados a inimigos que reduzem a eficácia deles, como Vulnerável e Enfraquecido.</li>
+      <li><span>Dano Base:</span> O dano principal da sua arma ou habilidade.</li>
+      <li><span>Crítico:</span> O dano extra causado em acertos críticos.</li>
+      <li><span>Energizado:</span> Um buff que aumenta a produção de dano.</li>
+      <li><span>Debuffs:</span> Efeitos negativos aplicados a inimigos que reduzem a eficácia deles, como Vulnerável e Enfraquecido.</li>
     </ul>
+
+    <!-- Cura -->
     <h2 class="slogan">Fatores de Cura</h2>
     <p>Esses fatores determinam a sua capacidade de sobreviver e recuperar vida.</p>
     <ul>
-        <li><span>Curas Causadas:</span> A quantidade de cura que você aplica em outros.</li>
-        <li><span>Curas Recebidas:</span> A quantidade de cura que você recebe.</li>
-        <li><span>Roubo de Vida:</span> Recuperação de vida ao causar dano.</li>
-        <li><span>Poções:</span> Itens consumíveis que restauram vida.</li>
-        <li><span>Regeneração:</span> Recuperação de vida ao longo do tempo.</li>
+      <li><span>Curas Causadas:</span> A quantidade de cura que você aplica em outros.</li>
+      <li><span>Curas Recebidas:</span> A quantidade de cura que você recebe.</li>
+      <li><span>Roubo de Vida:</span> Recuperação de vida ao causar dano.</li>
+      <li><span>Poções:</span> Itens consumíveis que restauram vida.</li>
+      <li><span>Regeneração:</span> Recuperação de vida ao longo do tempo.</li>
     </ul>
+
+    <!-- Utilidades -->
     <h2 class="slogan">Utilidades</h2>
     <p>As utilidades melhoram sua mobilidade e eficiência em combate.</p>
     <ul>
-        <li><span>Velocidade de Movimento:</span> A rapidez com que você se desloca pelo mapa.</li>
-        <li><span>Redução de Cooldown:</span> Diminuição do tempo de recarga das suas habilidades.</li>
-        <li><span>Buffs de Estamina:</span> Aumentos na sua estamina, que é usada para desviar e correr.</li>
+      <li><span>Velocidade de Movimento:</span> A rapidez com que você se desloca pelo mapa.</li>
+      <li><span>Redução de Cooldown:</span> Diminuição do tempo de recarga das suas habilidades.</li>
+      <li><span>Buffs de Estamina:</span> Aumentos na sua estamina, que é usada para desviar e correr.</li>
     </ul>
+
+    <!-- Buffs e Debuffs -->
+    <h2 class="slogan">Buffs e Debuffs</h2>
+    <div class="table-container">
+
+      <!-- Debuffs -->
+      <table>
+        <thead>
+          <tr>
+            <th>Debuffs</th>
+            <th>Ícone</th>
+            <th>Máximo</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lentidão</td>
+            <td><img src="https://cdn.nwdb.info/db/images/live/v56/status/se_slowt1.png" alt="Ícone de Lentidão"></td>
+            <td>50%</td>
+            <td>Lentidão Causada por Hab. / Perks</td>
+          </tr>
+          <tr>
+            <td>Vulnerável</td>
+            <td><img src="https://cdn.nwdb.info/db/images/live/v56/status/se_rendt1.png" alt="Ícone de Vulnerável"></td>
+            <td>70%</td>
+            <td>Perda de Armadura do Alvo</td>
+          </tr>
+          <tr>
+            <td>Enfraquecido</td>
+            <td><img src="https://cdn.nwdb.info/db/images/live/v56/status/se_weakent1.png" alt="Ícone de Enfraquecido"></td>
+            <td>50%</td>
+            <td>Perda de Dano do Alvo</td>
+          </tr>
+          <tr>
+            <td>Corta Cura</td>
+            <td><img src="https://cdn.nwdb.info/db/images/live/v56/status/se_diseaset1.png" alt="Ícone de Corta Cura"></td>
+            <td>50%</td>
+            <td>Perda de cura Máxima do Alvo</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Buffs -->
+      <table>
+        <thead>
+          <tr>
+            <th>Buffs</th>
+            <th>Ícone</th>
+            <th>Máximo</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pressa</td>
+            <td><img src="https://cdn.nwdb.info/db/images/live/v56/status/se_haste.png" alt="Ícone de Pressa"></td>
+            <td>40%</td>
+            <td>Velocidade de Movimento</td>
+          </tr>
+          <tr>
+            <td>Reforço</td>
+            <td><img src="https://cdn.nwdb.info/db/images/live/v56/status/se_fortifyt1.png" alt="Ícone de Reforço"></td>
+            <td>200%</td>
+            <td>Aumento de Armadura</td>
+          </tr>
+          <tr>
+            <td>Energizado</td>
+            <td><img src="https://cdn.nwdb.info/db/images/live/v56/status/se_empowert1.png" alt="Ícone de Energizado"></td>
+            <td>50%</td>
+            <td>Aumento de Dano Causado</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Tabela Resumo -->
+      <h2 class="slogan">Fundamentos de Builds New World</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Aspecto</th>
+            <th>Detalhes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="main-topic"><img src="https://cdn.nwdb.info/db/images/live/v56/status/se_blunderbuss_onaroll.png" alt="Ícone de Energizado">Defesa</td>
+            <td class="sub-topics">
+              <ul>
+                <li>Defesa Física</li>
+                <li>Defesa Elemental</li>
+                <li>Porcentagem de defesas</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="main-topic"><img src="https://cdn.nwdb.info/db/images/live/v56/status/se_rendt1.png" alt="Ícone de Energizado">Dano</td>
+            <td class="sub-topics">
+              <ul>
+                <li>Dano Base</li>
+                <li>Crítico</li>
+                <li>Energizado</li>
+                <li>Debuffs</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="main-topic"><img src="https://cdn.nwdb.info/db/images/live/v56/status/se_blunderbuss_lastchance.png" alt="Ícone de Energizado">Fatores de Cura</td>
+            <td class="sub-topics">
+              <ul>
+                <li>Curas Causadas</li>
+                <li>Curas Recebidas</li>
+                <li>Roubo de Vida</li>
+                <li>Poções</li>
+                <li>Regeneração</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="main-topic"><img src="https://cdn.nwdb.info/db/images/live/v56/status/se_blunderbuss_runandgun.png" alt="Ícone de Energizado">Utilidades</td>
+            <td class="sub-topics">
+              <ul>
+                <li>Velocidade de Movimento</li>
+                <li>Redução de Cooldown</li>
+                <li>Buffs de Stamina</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </section>
-  <section class="cards">
-    <a href="#" class="card">
-      <img class="fundamentos" src="../img/fundamentos de builds.png" alt="fundamentos">
-      <h3 style="color: #e63946;">Fundamentos de Builds</h3>
-    </a>
-  </section>
+  <!-- Botão Voltar -->
   <section class="cta">
-    <a href="/index.html"><button>Retornar a Tela principal</button></a>
+    <a href="/index.html"><button>Retornar à Tela Principal</button></a>
   </section>
+
+  <!-- Rodapé -->
   <footer>
     © 2025 Noo Mercyy - Todos os direitos reservados
   </footer>
+
 </body>
 </html>

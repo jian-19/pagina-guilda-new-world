@@ -275,3 +275,61 @@ body.raids-page footer {
     margin: 0 auto;
   }
 }
+
+table {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: #1e1e2e;
+  color: #fff;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table thead tr {
+  background-color: #5d2b7e;
+  color: #fff;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+  border: 2px solid #6c3a8e;
+}
+
+table tbody tr:hover {
+  background-color: #6c3a8e; 
+  transition: background-color 0.3s ease;
+}
+
+table img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50px; /* Ajuste o tamanho do ícone */
+  height: auto;
+}
+.main-topic {
+    font-weight: bold;
+}
+
+.sub-topics li {
+    font-size: 0.95rem;
+    list-style: none;
+    color: white;
+}
+
+.sub-topics li {
+    font-size: 0.95rem;
+    border-bottom: 2px solid #6c3a8e; /* Borda inferior roxa */
+    padding-bottom: 5px; /* Espaço entre o texto e a linha */
+    margin-bottom: 10px; /* Espaço entre as linhas */
+}
+
+
+
